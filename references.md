@@ -6,6 +6,7 @@
 * [Forensic Examination of Digital Evidence: A Guide for Law Enforcement](https://www.ojp.gov/pdffiles1/nij/199408.pdf)
 * [Sample Chain of Custody Form](https://www.nist.gov/document/sample-chain-custody-formdocx)
 * [PicoCTF 2023 - UnforgottenBits](https://play.picoctf.org/practice/challenge/383?category=4&originalEvent=72&page=1)
+* Guide To Computer Forensics and Investigations (Textbook)
 
 A large portion of technical process was from my completion of the PicoCTF UnforgottenBits challenge. It took me a very long time.
 
