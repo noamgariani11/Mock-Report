@@ -31,9 +31,21 @@
 
 # Case Background
 
-* osooss
+The site ```totallynotadrugonlinemarketplace.onion``` is one of the largest online druge marketplaces in the United States. It was beleived and later confirmed that Yone played a critical part in created this marketplace.
+
+Here are some statistics that the FBI had found in connection to this drug marketplace: 
+
+* 2901 Hospitilized Adults
+* 781 Hospitilized Children
+* 1398 Adults Died
+* 256 Children Died
+
+These connection were able to be made because there is a mark on the drugs that the DEA helped identify.
+
+Yone was first identified as a possible suspect by revealing his real name in one of the email headers. This lead to finding more information about him with Open Source Intelligence (OSINT) as well as a deployed FBI survelience team.
 
 # Data Collection
+
 
 
 # Significance of Findings
@@ -42,7 +54,7 @@
 
 # Conclusion
 
-lorem ipsum
+
 
 
 # Items Provided
