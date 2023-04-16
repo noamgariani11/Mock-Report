@@ -224,12 +224,8 @@ This is the final openssl command to decrypt vol4-3.home.yone.gallery.7.bmp.out
 	
 ```openssl enc -aes-256-cbc -d -S 2350e88cbeaf16c9 -K a9f86b874bd927057a05408d274ee3a88a83ad972217b81fdc2bb8e8ca8736da -iv 908458e48fc8db1c5a46f18f0feb119f -in vol4-3.home.yone.gallery.7.bmp.out -out finallyReleased.txt```
 	
-Then if you just output the files with the "cat" command you can see the flag.
+Then if I outputed the text file with the cat command.
 	
 ```cat finallyReleased.txt```
 	
-If you want only the flag and nothing else, here is a command for that:
-	
-```cat finallyReleased.txt | grep "picoCTF{" | tr -d " "```
-
-Flag: ```picoCTF{f473_53413d_de...}```
+This showed the password needed to access the entire web server that incriminated Yone for online drug distrubtion. 
