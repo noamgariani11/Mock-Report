@@ -12,7 +12,7 @@ Unfournately, when out Digital Forensics team received the laptop it was passwor
 
 Since he uses a very insecure operation system, Windows, it was possible to retreive his hash. Mimikatz software was used to retreive the password md5 hash.
 
-Here is are the hashes of the password retreived with mimikatz:
+Here is are the hashes of the password retreived with Mimikatz:
 
 MD5 hash: 025d43b1978d96e4d40d2316c90e3caa 
 SHA1 hash: ef678205593788329ff416ce5c65fa04f33a05bd
