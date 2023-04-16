@@ -42,7 +42,7 @@ Here are some statistics that the FBI had found in connection to this drug marke
 
 These connection were able to be made because there is a mark on the drugs that the DEA helped identify.
 
-Yone was first identified as a possible suspect by revealing his real name in one of the email headers. This lead to finding more information about him with Open Source Intelligence (OSINT) as well as a deployed FBI survelience team.
+Yone was first identified as a possible suspect by revealing his real name in one of the email headers. This is very similar to how the FBI catched The Silk Road. This lead to finding more information about him with Open Source Intelligence (OSINT) as well as a deployed FBI survelience team.
 
 # Data Collection
 
