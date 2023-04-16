@@ -19,7 +19,9 @@ SHA1 hash: ef678205593788329ff416ce5c65fa04f33a05bd
 
 I then used hashcat on the MD5 hash with the password wordlist rockyou.txt.gz to get the password. This is the command:
 
-```dd```
+```hashcat -a 0 -m 0 -o cracked.txt hash.txt rockyou.txt.gz```
+
+Mode 0 is for md5, Mode 100 is for SHA1, and Mode 1400 is for SHA256. In this case "-m 0" was used to dictate that this is a md5 hash. This first part, "-a 0", specified that this is a dictionary attack. And the last part "-o" specified the output file "cracked.txt", the hash input file "hash.txt", and lastly the wordlist which in this case is "rockyou.txt.gz". Most might think that you have to use "gunzip" on rockyou.txt.gz, but hashcat can actually run it while it is in the gz format, it just takes a bit longer.
 
 This is the password that was used: a1b2c3d4e5f6
 
