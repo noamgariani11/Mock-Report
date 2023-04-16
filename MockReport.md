@@ -1,6 +1,6 @@
 # Case 981529 Report
 
-**Objective:** To access the password on the disk image to access the server which incriminates the suspect, Yone.
+**Objective:** To access the password on the disk image to access the server which incriminates the suspect, Sten Walker (Yone).
 
 **Computer Type:** Dell Inspiron 3511
 
