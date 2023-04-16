@@ -14,3 +14,9 @@ A large portion of technical process was from my completion of the PicoCTF Unfor
 
 * [Perfect example of Mock Report](https://canvas.tamu.edu/courses/206721/pages/perfect-example-of-mock-report?module_item_id=6898288)
 * [Rubric for Mock Report Copy](https://canvas.tamu.edu/courses/206721/pages/rubric-for-mock-report-copy?module_item_id=7358727)
+
+**Fictional Refrences:**
+
+* FBI Team (John P., Mike L., and Larry M.)
+* College Station Library
+* Internal Guidlines
