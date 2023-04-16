@@ -16,7 +16,7 @@
 
 **Examination Location:** Bryan
 
-**Tools used:** Disk acquisition utility, Autopsy, openssl, Debain based Linux (Kali) - Command Line, and Steganography tools (steghide, stegcracker...)
+**Tools used:** Disk acquisition utility, Autopsy, openssl, Debain based Linux (Kali) - Command Line, and Steganography tools (steghide and stegcracker)
 
 # Executive Summary
 
