@@ -14,8 +14,9 @@ Since he uses a very insecure operation system, Windows, it was possible to retr
 
 Here is are the hashes of the password retreived with Mimikatz:
 
-MD5 hash: 025d43b1978d96e4d40d2316c90e3caa 
-SHA1 hash: ef678205593788329ff416ce5c65fa04f33a05bd
+MD5 hash: ```025d43b1978d96e4d40d2316c90e3caa```
+
+SHA1 hash: ```ef678205593788329ff416ce5c65fa04f33a05bd```
 
 I then used hashcat on the MD5 hash with the password wordlist rockyou.txt.gz to get the password. This is the command:
 
