@@ -69,6 +69,7 @@ Lastly, I would like to acknowledge the lawyers working hard to get the people r
 * [Refrences](https://github.com/noamgariani11/Mock-Report/blob/main/references.md)
 * [The disk image](https://artifacts.picoctf.net/c/485/disk.flag.img.gz)
 * [Case Notes](https://github.com/noamgariani11/Mock-Report/blob/main/CaseNotes.md)
+* [Technical Notes of Data Aquisition](https://github.com/noamgariani11/Mock-Report/blob/main/technicalNotes.md)
 * [Autopsy Forensics Report](https://github.com/noamgariani11/Mock-Report/tree/main/MockReport%20HTML%20Report%2004-16-2023-11-33-24)
 
 
