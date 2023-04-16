@@ -1,7 +1,15 @@
-https://www.youtube.com/watch?v=sUwfqk293xU
+# Refrences
 
-https://www.ojp.gov/pdffiles1/nij/199408.pdf
+**Open Source Materials used:**
 
-https://www.nist.gov/document/sample-chain-custody-formdocx
+* [Reporting for Digital Forensics | Jason Wilkins (SANS Video)](https://www.youtube.com/watch?v=sUwfqk293xU)
+* [Forensic Examination of Digital Evidence: A Guide for Law Enforcement](https://www.ojp.gov/pdffiles1/nij/199408.pdf)
+* [Sample Chain of Custody Form](https://www.nist.gov/document/sample-chain-custody-formdocx)
+* [PicoCTF 2023 - UnforgottenBits](https://play.picoctf.org/practice/challenge/383?category=4&originalEvent=72&page=1)
 
-https://play.picoctf.org/practice/challenge/383?category=4&originalEvent=72&page=1
+A large portion of technical process was from my completion of the PicoCTF UnforgottenBits challenge. It took me a very long time.
+
+**Canvas Materials used:**
+
+* [Perfect example of Mock Report](https://canvas.tamu.edu/courses/206721/pages/perfect-example-of-mock-report?module_item_id=6898288)
+* [Rubric for Mock Report Copy](https://canvas.tamu.edu/courses/206721/pages/rubric-for-mock-report-copy?module_item_id=7358727)
