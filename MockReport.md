@@ -47,7 +47,13 @@ lorem ipsum
 
 # Items Provided
 
-* Chain of Custody Form
-* Refrences
-* The disk image reviewed
-* Case Notes
+* [Chain of Custody Form](https://github.com/noamgariani11/Mock-Report/blob/main/chain-of-custody.pdf)
+* [Refrences](https://github.com/noamgariani11/Mock-Report/blob/main/references.md)
+* [The disk image reviewed](https://artifacts.picoctf.net/c/485/disk.flag.img.gz)
+* [Case Notes](https://github.com/noamgariani11/Mock-Report/blob/main/CaseNotes.md)
+
+
+
+
+
+
