@@ -4,7 +4,7 @@
 
 **Computer Type:** Dell Inspiron 3511
 
-**Operating System:** Windows
+**Operating System:** Windows 10
 
 **Offense:** Online Drug Distrabution 
 
@@ -29,9 +29,16 @@
 | -------------    | -------------                        |
 | 1                | Dell Inspiron 3511, Serial: H99WPT2  |
 
-# Details of Findings
+# Case Background
 
 * osooss
+
+# Data Collection
+
+
+# Significance of Findings
+
+
 
 # Conclusion
 
