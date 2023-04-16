@@ -63,6 +63,7 @@ Yone was first identified as a possible suspect by revealing his real name in on
 * [Refrences](https://github.com/noamgariani11/Mock-Report/blob/main/references.md)
 * [The disk image reviewed](https://artifacts.picoctf.net/c/485/disk.flag.img.gz)
 * [Case Notes](https://github.com/noamgariani11/Mock-Report/blob/main/CaseNotes.md)
+* Autopsy Forensics Report
 
 
 
