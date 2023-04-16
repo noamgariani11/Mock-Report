@@ -55,7 +55,13 @@ Yone was first identified as a possible suspect by revealing his real name in on
 # Conclusion
 
 
+# Acknowledgements
 
+I'd like to acknowledge the team that made this possible. Digital forensics is not an individual task it requires a team of dedicated people to go through many different avenues. With a diverse digital forensics team with many different people having different expertise, we were able to professionally and correctly analyze the files and connect them to the suspect.
+
+I would also like to acknowledge all the investigative teams such as Bryan Police Department and the FBI who were the ones to get the laptop in the first place. It would not have been possible without them.
+
+Lastly, I would like to acknowledge the lawyers working hard to get the people responsible for this.
 
 # Items Provided
 
