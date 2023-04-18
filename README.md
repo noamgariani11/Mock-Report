@@ -1,4 +1,4 @@
-# Mock Report
+# Mock Report - Table of Contents
 
 [Report](https://github.com/noamgariani11/Mock-Report/blob/main/MockReport.md)
 
