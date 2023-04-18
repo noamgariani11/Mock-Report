@@ -229,3 +229,10 @@ Then if I outputed the text file with the cat command.
 ```cat finallyReleased.txt```
 	
 This showed the password needed to access the entire web server that incriminated Yone for online drug distrubtion. 
+
+---
+
+Note:
+	
+This was the first time I ever took on such a big disk file to analyse in this way. I would say in a lot of parts I went down the wrong track as there was just so much on the disk. There were many logs that were just completly useless as well as emails. Finding the right path to follow to the awnser was critical as going down the a rabbit hole that is wrong could take hours. This is based on a controlled ctf challenge I can only imagine real digital forensics cases being much more complex and requring many people working on the same project. I could defintly image this being a group activity if the challenge was harder. I think especially is guessy challenges like these different persepectives come in handy.
+	
