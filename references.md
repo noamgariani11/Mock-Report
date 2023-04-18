@@ -15,6 +15,7 @@ A large portion of technical process was from my completion of the PicoCTF Unfor
 * [Perfect example of Mock Report](https://canvas.tamu.edu/courses/206721/pages/perfect-example-of-mock-report?module_item_id=6898288)
 * [Rubric for Mock Report Copy](https://canvas.tamu.edu/courses/206721/pages/rubric-for-mock-report-copy?module_item_id=7358727)
 * [Hashcat Lab](https://canvas.tamu.edu/courses/206721/files/49419805?module_item_id=6898256)
+* [Week 13 Video: Report Writing - LinkedIn Learning](https://www.linkedin.com/learning/learning-cyber-incident-response-and-digital-forensics/creating-your-report?autoplay=true&resume=false&u=74650722)
 
 **Fictional Refrences:**
 
