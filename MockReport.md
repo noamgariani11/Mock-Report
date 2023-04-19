@@ -20,8 +20,8 @@
 
 # Executive Summary
 
-* d
-* d
+* The password for the "totallynotadrugonlinemarketplace" drug markertplace network was found in the disk image.
+* Access to the whole network will be able to provid evidence for mutliple arrests, but most notably providing key evidence in implicating Sten Walker (Yone) as the head of the organization.
 
 # Items Analysed 
 
@@ -46,13 +46,16 @@ Yone was first identified as a possible suspect by revealing his real name in on
 
 # Data Collection
 
+Before touching the laptop in question mutliple images were taken. The images could be seen in the items attached. Additionally a chain of custody form was used to keep track of who had the laptop when. Our organization uses ... standard when collecting digital artifacts to ensure the integerity of the investigation.
 
+We used ... devide to look at the hard drive of the laptop.
 
 # Significance of Findings
 
 
 
 # Conclusion
+
 
 
 # Acknowledgements
