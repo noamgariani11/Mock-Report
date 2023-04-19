@@ -15,7 +15,7 @@
 * [Technical Notes](https://github.com/noamgariani11/Mock-Report/blob/main/technicalNotes.md)
   * [Password Cracking](https://github.com/noamgariani11/Mock-Report/blob/main/technicalNotes.md#cracking-password)
   * [Hashes](https://github.com/noamgariani11/Mock-Report/blob/main/technicalNotes.md#hashes)
-* [Refrences](https://github.com/noamgariani11/Mock-Report/blob/main/references.md)
+* [References](https://github.com/noamgariani11/Mock-Report/blob/main/references.md)
 * [Images](https://github.com/noamgariani11/Mock-Report/blob/main/images.md)
 * [Autopsy Forensics Report](https://github.com/noamgariani11/Mock-Report/tree/main/MockReport%20HTML%20Report%2004-16-2023-11-33-24)
 
