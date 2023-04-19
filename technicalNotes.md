@@ -6,6 +6,8 @@ There were multiple technical steps in the data aquistion stage. This document o
 
 Before touching the laptop many images were taken from different angles. Images were taken from the outside and then opened the laptop to look at the inside.
 
+The link to the recorded images could be found [here](https://github.com/noamgariani11/Mock-Report/blob/main/images.md).
+
 # Cracking password
 
 Unfournately, when out Digital Forensics team received the laptop it was password protected. Although there are ways to use digital forensics tools to take out the hard drive and get the disk image that way, Sten Walker (Yone), decided to encrypt his hard drive. The only way this laptop would be useful is if we can get access laptop with his password.
