@@ -9,6 +9,7 @@
   * [Conclusion](https://github.com/noamgariani11/Mock-Report/blob/main/MockReport.md#conclusion)
   * [Acknowledgements](https://github.com/noamgariani11/Mock-Report/blob/main/MockReport.md#acknowledgements)
 * [Chain of Custody Form](https://github.com/noamgariani11/Mock-Report/blob/main/chain-of-custody.pdf)
+* [Digital Investigation Log](https://github.com/noamgariani11/Mock-Report/blob/main/Digital_Investigation_Log.md)
 * [Case Notes](https://github.com/noamgariani11/Mock-Report/blob/main/CaseNotes.md)
   * [Getting the Disk into Autopsy](https://github.com/noamgariani11/Mock-Report/blob/main/CaseNotes.md#getting-the-disk-into-autopsy)
   * [Findings](https://github.com/noamgariani11/Mock-Report/blob/main/CaseNotes.md#findings)
