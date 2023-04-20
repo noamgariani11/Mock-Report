@@ -41,4 +41,6 @@ Additionally, I heavily based the course on the PicoCTF challenge "UnforgottenBi
 * Similar cases such as Operation Bayonet and The Silk Road.
 * Github formatting techniques
 
+---
+
 I couldn't really find any standard format and as mentioned in the linkedin learning video it is particular to each agency. Due to this I combined mutliple different formats from the sources provided.
