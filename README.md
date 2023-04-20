@@ -35,7 +35,7 @@ Additionally, I heavily based the course on the PicoCTF challenge "UnforgottenBi
 * How to write a Digital Forensics report
 * How to fill out a Chain of Custody Form
 * How to fill out a Digital Investigation Log
-* A lot about using autopsy on a technical digital forensics case (PicoCTF 2023 - UnforgottenBits). Also how to convey the technical notes after completing a challenge or digital forensics case.
+* A lot about using autopsy on a technical digital forensics case (PicoCTF 2023 - UnforgottenBits). Also how to convey the technical notes after completing a challenge or digital forensics case. Also while working on UnforgottenBits I used other tools like stegcracker, steghide, openssl, linux cli, python scripting, and more.
 * How to autogenerate reports with OSForensics and Autopsy.
 * How to implment the information from the forensics presentation about taking images in context of Digitial Forensics. Even pictures that weren't clear or good were saved and not altered in any way (metadata is still there). Also I took many images from multiple angles and zoom.
 * Similar cases such as Operation Bayonet and The Silk Road.
