@@ -50,13 +50,15 @@ Before touching the laptop in question mutliple images were taken. The images co
 
 We used ... devide to look at the hard drive of the laptop.
 
+Most volatile stuff collected first.
+
 # Significance of Findings
 
-
+can help get others in the market - implicates leader and sysadmins 
 
 # Conclusion
 
-
+possible impact
 
 # Acknowledgements
 
