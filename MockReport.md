@@ -6,7 +6,7 @@
 
 **Operating System:** Windows 10
 
-**Offense:** Online Drug Distrabution 
+**Offense:** Online Drug Distribution
 
 **Case Agent:** Noam Gariani
 
