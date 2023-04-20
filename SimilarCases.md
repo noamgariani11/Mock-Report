@@ -1,3 +1,5 @@
+Theses similar cases are related to the case at hand and also serve as a precedent for this case in prosecution.
+
 # Operation Bayonet
 
 Interesting
