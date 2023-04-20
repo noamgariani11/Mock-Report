@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OSFCase>
+    <!--OSForensics Case File-->
+    <OSFVersionInfo MajorVersion="10" MinorVersion="0" Build="1009" />
+    <CaseName>Case 981529 Report</CaseName>
+    <InvestigatorName>Noam Gariani</InvestigatorName>
+    <Organization>Bryan Police Department</Organization>
+    <ContactDetails>(979) 209-5300</ContactDetails>
+    <TimeZone Bias="0" UseLocal="1" />
+    <CreationDate TimeZone="UTC" Year="2023" Month="4" Day="20" Hour="19" Minute="32" Second="16" />
+    <AccessDate TimeZone="UTC" Year="2023" Month="4" Day="20" Hour="19" Minute="32" Second="16" />
+    <DefaultDrive>disk-2</DefaultDrive>
+    <AcquisitionType Value="2" />
+    <DefaultDriveDetails>disk-2:\</DefaultDriveDetails>
+    <ReportLocation>C:\Users\drago\Documents\PassMark\OSForensics\Cases\Case 981529 Report\</ReportLocation>
+    <LogoPaths>
+        <Logo0></Logo0>
+        <Logo1></Logo1>
+        <Logo2></Logo2>
+    </LogoPaths>
+    <Narrative>&lt;DIV&gt;&lt;FONT size=4&gt;&lt;B&gt;CASE SUMMARY&lt;/B&gt;&lt;/FONT&gt;&lt;/DIV&gt;</Narrative>
+    <LoggingEnabled Value="1" />
+    <USBWriteBlockEnabled Value="0" />
+    <Offense></Offense>
+    <AnalysisReqBy></AnalysisReqBy>
+    <SuspectName></SuspectName>
+    <LocOfSeizure></LocOfSeizure>
+    <LegalAuthority></LegalAuthority>
+    <SummaryOfJob></SummaryOfJob>
+    <SeizedDate TimeZone="UTC" Year="0" Month="0" Day="0" Hour="0" Minute="0" Second="0" />
+    <EvidenceItems />
+    <CategoryList>
+        <Category ID="0" Name="Images" Colour="16777215" Shortcut="0" Notes="" />
+        <Category ID="1" Name="Videos" Colour="16777215" Shortcut="0" Notes="" />
+        <Category ID="2" Name="Audio Files" Colour="16777215" Shortcut="0" Notes="" />
+        <Category ID="3" Name="E-mails" Colour="16777215" Shortcut="0" Notes="" />
+        <Category ID="4" Name="Documents" Colour="16777215" Shortcut="0" Notes="" />
+        <Category ID="5" Name="Chat Logs" Colour="16777215" Shortcut="0" Notes="" />
+        <Category ID="6" Name="Peer-to-Peer (P2P)" Colour="16777215" Shortcut="0" Notes="" />
+        <Category ID="7" Name="Mobile Device" Colour="16777215" Shortcut="0" Notes="" />
+        <Category ID="8" Name="Program Files" Colour="16777215" Shortcut="0" Notes="" />
+        <Category ID="9" Name="Recycle Bin" Colour="16777215" Shortcut="0" Notes="" />
+        <Category ID="10" Name="Web History" Colour="16777215" Shortcut="0" Notes="" />
+        <Category ID="11" Name="Searches" Colour="16777215" Shortcut="0" Notes="" />
+        <Category ID="12" Name="Recent Files" Colour="16777215" Shortcut="0" Notes="" />
+        <Category ID="13" Name="Downloads" Colour="16777215" Shortcut="0" Notes="" />
+        <Category ID="14" Name="Registry" Colour="16777215" Shortcut="0" Notes="" />
+        <Category ID="15" Name="Prefetch" Colour="16777215" Shortcut="0" Notes="" />
+    </CategoryList>
+</OSFCase>

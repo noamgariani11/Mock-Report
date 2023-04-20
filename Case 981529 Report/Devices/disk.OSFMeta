@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OSFCaseMetaInfo Type="Device">
+    <!--OSForensics Case Meta Info File-->
+    <OSFVersionInfo MajorVersion="10" MinorVersion="0" Build="1009" />
+    <CaseItemID>3</CaseItemID>
+    <Title>disk</Title>
+    <Notes></Notes>
+    <Module>Case Manager</Module>
+    <AddedToCase TimeZone="UTC" Year="2023" Month="4" Day="20" Hour="19" Minute="39" Second="31" />
+    <DevicePath>C:\disk.img</DevicePath>
+    <DeviceType>1</DeviceType>
+    <PartitionNo>-1</PartitionNo>
+    <StartSec>-1</StartSec>
+    <NumSecs>-1</NumSecs>
+    <ShadowId></ShadowId>
+    <ShadowTime></ShadowTime>
+    <BDEPassword></BDEPassword>
+    <BDEKey></BDEKey>
+    <BDEKeyFile></BDEKeyFile>
+</OSFCaseMetaInfo>

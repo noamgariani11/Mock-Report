@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<OSFPathFlags>
+    <!--OSforensics Path Flags File-->
+    <OSFVersionInfo MajorVersion="10" MinorVersion="0" Build="1009" />
+    <Path PathHash="11022334354076716712">
+        <Viewed>
+            <Date>133264928328120000</Date>
+            <Module>Case Manager</Module>
+        </Viewed>
+    </Path>
+</OSFPathFlags>
