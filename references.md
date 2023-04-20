@@ -8,6 +8,8 @@
 * [PicoCTF 2023 - UnforgottenBits](https://play.picoctf.org/practice/challenge/383?category=4&originalEvent=72&page=1)
 * [Darknet Diaries | Operation Bayonet](https://darknetdiaries.com/transcript/24/)
 * [Guide To Computer Forensics and Investigations](https://www.amazon.com/Guide-Computer-Forensics-Investigations-Standalone/dp/1337568945) (Textbook)
+* [CF117 - Computer Forensics - Chapter 14 - Report Writing for High-Tech Investigations](https://www.youtube.com/watch?v=kQjrvJDmy0E)
+* [PassMark OSForensics](https://www.osforensics.com/download.html)
 
 A large portion of technical process was from my completion of the PicoCTF UnforgottenBits challenge. It took me a very long time.
 
