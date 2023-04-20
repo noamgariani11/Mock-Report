@@ -18,6 +18,8 @@ A large portion of technical process was from my completion of the PicoCTF Unfor
 * [Hashcat Lab](https://canvas.tamu.edu/courses/206721/files/49419805?module_item_id=6898256)
 * [Week 13 Video: Report Writing - LinkedIn Learning](https://www.linkedin.com/learning/learning-cyber-incident-response-and-digital-forensics/creating-your-report?autoplay=true&resume=false&u=74650722)
 
+Also, I used the presentation from one of the forensics students in CYBR 405 for taking the photos of the laptop in question. Her presentation was helpful and informative when attempting to collect the images for the digital forensics "case". I attempted to take many images from every angle to be very thorough.
+
 **Fictional Refrences:**
 
 * FBI Team (John P., Mike L., and Larry M.)
