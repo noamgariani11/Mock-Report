@@ -10,6 +10,7 @@
 * [Guide To Computer Forensics and Investigations](https://www.amazon.com/Guide-Computer-Forensics-Investigations-Standalone/dp/1337568945) (Textbook)
 * [CF117 - Computer Forensics - Chapter 14 - Report Writing for High-Tech Investigations](https://www.youtube.com/watch?v=kQjrvJDmy0E)
 * [PassMark OSForensics](https://www.osforensics.com/download.html)
+* [Autopsy User Documentation](https://sleuthkit.org/autopsy/docs/user-docs/4.0/)
 
 A large portion of technical process was from my completion of the PicoCTF UnforgottenBits challenge. It took me a very long time.
 
