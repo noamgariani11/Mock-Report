@@ -16,7 +16,7 @@
 
 **Examination Location:** Bryan
 
-**Tools used:** Disk acquisition utility, Autopsy, openssl, Linux Command Line, and Steganography tools
+**Tools used:** Disk acquisition utility, Autopsy, openssl, hashcat, Linux Command Line, and Steganography tools
 
 # Executive Summary
 
