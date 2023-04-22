@@ -44,6 +44,8 @@ These connection were able to be made because there is a mark on the drugs that 
 
 Yone was first identified as a possible suspect by revealing his real name in one of the email headers. This is very similar to how the FBI catched The Silk Road. This lead to finding more information about him with Open Source Intelligence (OSINT) as well as a deployed FBI survelience team.
 
+Once 
+
 # Data Collection
 
 Before touching the laptop in question mutliple images were taken. The images could be seen in the items attached. Additionally a chain of custody form was used to keep track of who had the laptop when. Our organization uses ... standard when collecting digital artifacts to ensure the integerity of the investigation.
