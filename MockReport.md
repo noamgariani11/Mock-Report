@@ -44,19 +44,26 @@ These connection were able to be made because there is a mark on the drugs that 
 
 Yone was first identified as a possible suspect by revealing his real name in one of the email headers. This is very similar to how the FBI catched The Silk Road. This lead to finding more information about him with Open Source Intelligence (OSINT) as well as a deployed FBI survelience team.
 
-Once 
+Once the connection was made to Sten Walker (Yone) his laptop was seized. The objective then was to get the password off of the disk image to access the online drug marketplace. When the password was found in the disk image the new objective was to gather as much information on there network to provide evidence to this case.
 
 # Data Collection
 
-Before touching the laptop in question mutliple images were taken. The images could be seen in the items attached. Additionally a chain of custody form was used to keep track of who had the laptop when. Our organization uses ... standard when collecting digital artifacts to ensure the integerity of the investigation.
+Before touching the laptop in question mutliple images were taken. The images could be seen in the items attached. Additionally a chain of custody form was used to keep track of who had the laptop when. Our organization uses ISO/IEC 27037:2012 standard, the Duabert standard, and the NIST SP 800-86 when collecting digital artifacts to ensure the integerity of the investigation.
 
-We used ... devide to look at the hard drive of the laptop.
+There wasn't any time constraints in the collection of the laptop so our team was able to be thorough in the investigation and not miss anything. To perserve the intergity we collected a compared the digital fingerprint of the latop to make sure there was no modification of the laptop. The [technical notes](https://github.com/noamgariani11/Mock-Report/blob/main/technicalNotes.md) go more in depth into this but the standards mentioned above were used in this process.
 
-Most volatile stuff collected first.
+Initially we look at the RAM since it was most volatile and then the disk. Our Digital Forensics team uses the same methodical approach that is documented for all of our cases as well as this one when reviewing the disk image and the drug marketplace network once the password was found.
 
 # Significance of Findings
 
-can help get others in the market - implicates leader and sysadmins 
+Once the password was found we were able to implicate these key actors:
+
+* Sten Walker (Yone) - Head of the Organization
+* Yakazo Jun - System Adminstrator
+* Minh Quoc Nguyen - Cyber Offensive Operations
+* Ugo Caesar Anele - System Adminstrator
+
+Along with these key actors many smaller drug dealers on this marketplace were found and can later be prosecuted.
 
 # Conclusion
 
@@ -69,6 +76,15 @@ I'd like to acknowledge the team that made this possible. Digital forensics is n
 I would also like to acknowledge all the investigative teams such as Bryan Police Department and the FBI who were the ones to get the laptop in the first place. It would not have been possible without them.
 
 Lastly, I would like to acknowledge the lawyers working hard to get the people responsible for this.
+
+# Expert Witness
+
+Federal Rule 26 (Disclosure of Expert Testimony) and under Rules 702, 703, or 705 of the Federal Rules of Evidence these are the people that may be used at testimony:
+
+* Noam Gariani
+* John White
+
+Also, due to this case being in Texas this case was prepared to withstand the Daubert test for the admissibility of expert witness testimony.
 
 # Items Provided
 
