@@ -14,6 +14,8 @@ Unfournately, when out Digital Forensics team received the laptop it was passwor
 
 Since he uses a very insecure operation system, Windows, it was possible to retreive his hash. Mimikatz software was used to retreive the password md5 hash.
 
+Cellebrite UFED could do a similar task, but our organization doesn't have the resources to afford it.
+
 Here is are the hashes of the password retreived with Mimikatz:
 
 MD5 hash: ```025d43b1978d96e4d40d2316c90e3caa```
