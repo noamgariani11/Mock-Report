@@ -41,3 +41,7 @@ These are the hashes of the disk image to ensure that nothing was changed. It wa
 ```certutil -hashfile C:\disk.img SHA256```: ad5133f0081f81d987ab699a45bef742582a11219e3f8da85ace13b483729c7b
 
 Multiple copies (3) were made and they all have the same hashes as the orginal laptop disk hashes.
+
+# RAM
+
+When looking at volatile memory memory like RAM our team uses a tool called Volatility. We analysed the RAM for any clues as to what was left on this laptop. This gave us more clues as to what was happening. More specifically it showed us documents, browsing history, apps, and more that helped in the search of the disk and in gathering the evidence as a whole.
