@@ -15,6 +15,7 @@
 * [Digital Forensics Analysis Methodolgy DoJ](https://www.justice.gov/sites/default/files/criminal-ccips/legacy/2015/03/26/forensics_chart.pdf)
 * [ISO/IEC 27037:2012](https://www.iso.org/standard/44381.html)
 * [Rule 702](https://www.law.cornell.edu/rules/fre/rule_702)
+* [UnforgottenBits Writeup](https://github.com/noamgariani11/PicoCTF-2023-Writeup/blob/main/Forensics/UnforgottenBits/UnforgottenBits.md) Note- I made this writeup which was used/slightly modified in ["Case Notes"](https://github.com/noamgariani11/Mock-Report/blob/main/CaseNotes.md). Since I was the one who created the writeup I think it is fine to include it. I also got permission to base the case partially on UnforgottenBits. 
 
 A large portion of technical process was from my completion of the PicoCTF UnforgottenBits challenge. It took me a very long time.
 
