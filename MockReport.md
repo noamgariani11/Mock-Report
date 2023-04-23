@@ -14,7 +14,7 @@
 
 **Chain of Custody:** See attached form
 
-**Examination Location:** Bryan
+**Examination Location:** Bryan, Texas
 
 **Tools used:** Disk acquisition utility, Autopsy, openssl, hashcat, Linux Command Line, and Steganography tools
 
