@@ -89,7 +89,7 @@ Also, due to this case being in Texas this case was prepared to withstand the Da
 # Items Provided
 
 * [Chain of Custody Form](https://github.com/noamgariani11/Mock-Report/blob/main/chain-of-custody.pdf)
-* [Refrences](https://github.com/noamgariani11/Mock-Report/blob/main/references.md)
+* [References](https://github.com/noamgariani11/Mock-Report/blob/main/references.md)
 * [The disk image](https://artifacts.picoctf.net/c/485/disk.flag.img.gz)
 * [Case Notes](https://github.com/noamgariani11/Mock-Report/blob/main/CaseNotes.md)
 * [Technical Notes of Data Aquisition](https://github.com/noamgariani11/Mock-Report/blob/main/technicalNotes.md)
