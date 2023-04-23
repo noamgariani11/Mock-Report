@@ -21,7 +21,7 @@
 # Executive Summary
 
 * The password for the "totallynotadrugonlinemarketplace" drug markertplace network was found in the disk image.
-* Access to the whole network will be able to provid evidence for mutliple arrests, but most notably providing key evidence in implicating Sten Walker (Yone) as the head of the organization.
+* Access to the whole network will be able to provide evidence for multiple arrests, but most notably providing key evidence in implicating Sten Walker (Yone) as the head of the organization.
 
 # Items Analysed 
 
@@ -40,19 +40,19 @@ Here are some statistics that the FBI had found in connection to this drug marke
 * 1398 Adults Died
 * 256 Children Died
 
-These connection were able to be made because there is a mark on the drugs that the DEA helped identify.
+These connections were able to be made because there is a mark on the drugs that the DEA helped identify.
 
-Yone was first identified as a possible suspect by revealing his real name in one of the email headers. This is very similar to how the FBI catched The Silk Road. This lead to finding more information about him with Open Source Intelligence (OSINT) as well as a deployed FBI survelience team.
+Yone was first identified as a possible suspect by revealing his real name in one of the email headers. This is very similar to how the FBI caught The Silk Road. This led to finding more information about him with Open Source Intelligence (OSINT) as well as a deployed FBI surveillance team.
 
-Once the connection was made to Sten Walker (Yone) his laptop was seized. The objective then was to get the password off of the disk image to access the online drug marketplace. When the password was found in the disk image the new objective was to gather as much information on there network to provide evidence to this case.
+Once the connection was made to Sten Walker (Yone) his laptop was seized. The objective then was to get the password off of the disk image to access the online drug marketplace. When the password was found in the disk image the new objective was to gather as much information on their network to provide evidence to this case.
 
 # Data Collection
 
-Before touching the laptop in question mutliple images were taken. The images could be seen in the items attached. Additionally a chain of custody form was used to keep track of who had the laptop when. Our organization uses ISO/IEC 27037:2012 standard, the Duabert standard, and the NIST SP 800-86 when collecting digital artifacts to ensure the integerity of the investigation.
+Before touching the laptop in question multiple images were taken. The images could be seen in the items attached. Additionally, a chain of custody form was used to keep track of who had the laptop and when. Our organization uses ISO/IEC 27037:2012 standard, the Daubert standard, and the NIST SP 800-86 when collecting digital artifacts to ensure the integrity of the investigation.
 
-There wasn't any time constraints in the collection of the laptop so our team was able to be thorough in the investigation and not miss anything. To perserve the intergity we collected a compared the digital fingerprint of the latop to make sure there was no modification of the laptop. The [technical notes](https://github.com/noamgariani11/Mock-Report/blob/main/technicalNotes.md) go more in depth into this but the standards mentioned above were used in this process.
+There weren't any time constraints in the collection of the laptop so our team was able to be thorough in the investigation and not miss anything. To preserve the integrity we collected compared the digital fingerprint of the laptop to make sure there was no modification of the laptop. The [technical notes](https://github.com/noamgariani11/Mock-Report/blob/main/technicalNotes.md) go more in-depth into this but the standards mentioned above were used in this process.
 
-Initially we look at the RAM since it was most volatile and then the disk. Our Digital Forensics team uses the same methodical approach that is documented for all of our cases as well as this one when reviewing the disk image and the drug marketplace network once the password was found.
+Initially, we look at the RAM since it was the most volatile, and then the disk. Our Digital Forensics team uses the same methodical approach that is documented for all of our cases as well as this one when reviewing the disk image and the drug marketplace network once the password was found.
 
 # Significance of Findings
 
@@ -94,9 +94,3 @@ Also, due to this case being in Texas this case was prepared to withstand the Da
 * [Case Notes](https://github.com/noamgariani11/Mock-Report/blob/main/CaseNotes.md)
 * [Technical Notes of Data Aquisition](https://github.com/noamgariani11/Mock-Report/blob/main/technicalNotes.md)
 * [Autopsy Forensics Report](https://github.com/noamgariani11/Mock-Report/tree/main/MockReport%20HTML%20Report%2004-16-2023-11-33-24)
-
-
-
-
-
-
