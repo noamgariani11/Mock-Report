@@ -48,7 +48,7 @@ Once the connection was made to Sten Walker (Yone) his laptop was seized. The ob
 
 # Data Collection
 
-Before touching the laptop in question multiple images were taken. The images could be seen in the items attached. Additionally, a chain of custody form was used to keep track of who had the laptop and when. Our organization uses ISO/IEC 27037:2012 standard, the Daubert standard, and the NIST SP 800-86 when collecting digital artifacts to ensure the integrity of the investigation.
+Before touching the laptop in question multiple images were taken. The images could be seen in the items attached. Additionally, a chain of custody form was used to keep track of who had the laptop and when. Our organization uses ISO/IEC 27037:2012 standard, the Daubert standard, and the NIST SP 800-86 document when collecting digital artifacts to ensure the integrity of the investigation.
 
 There weren't any time constraints in the collection of the laptop so our team was able to be thorough in the investigation and not miss anything. To preserve the integrity we collected compared the digital fingerprint of the laptop to make sure there was no modification of the laptop. The [technical notes](https://github.com/noamgariani11/Mock-Report/blob/main/technicalNotes.md) go more in-depth into this but the standards mentioned above were used in this process.
 
@@ -60,14 +60,22 @@ Once the password was found we were able to implicate these key actors:
 
 * Sten Walker (Yone) - Head of the Organization
 * Yakazo Jun - System Adminstrator
-* Minh Quoc Nguyen - Cyber Offensive Operations
-* Ugo Caesar Anele - System Adminstrator
+* Minh Quoc Nguyen - System Administrator
+* Ugo Caesar Anele - System Administrator
 
-Along with these key actors many smaller drug dealers on this marketplace were found and can later be prosecuted.
+Along with these key actors, many smaller drug dealers in this marketplace were logged and can later be prosecuted.
+
+Here are some statistics beyond key actors of what was collected from the network:
+
+* 235791 Buyers logged
+* 34982 Buyer Home Address logged
+* 984 Drug sellers logged
+
+Once shutting down the drug marketplace officially will shatter trust in the online drug marketplace. Also, we collected techniques and strategies used commonly in these types of illegal operations which could be used in the future when pursuing these types of cases.
 
 # Conclusion
 
-possible impact
+This investigation was mainly focused on getting the password from the laptop to access the drug marketplace network. It was also focused on collecting as much information from the online drug network to get enough evidence to proescute the key actors in creating "totallynotadrugonlinemarketplace". 
 
 # Acknowledgements
 
