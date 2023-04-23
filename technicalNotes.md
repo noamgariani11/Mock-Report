@@ -10,13 +10,13 @@ The link to the recorded images could be found [here](https://github.com/noamgar
 
 # Cracking password
 
-Unfournately, when out Digital Forensics team received the laptop it was password protected. Although there are ways to use digital forensics tools to take out the hard drive and get the disk image that way, Sten Walker (Yone), decided to encrypt his hard drive. The only way this laptop would be useful is if we can get access laptop with his password.
+Unfortunately, when our Digital Forensics team received the laptop it was password protected. Although there are ways to use digital forensics tools to take out the hard drive and get the disk image that way, Sten Walker (Yone), decided to encrypt his hard drive. The only way this laptop would be useful is if we can get access laptop with his password.
 
-Since he uses a very insecure operation system, Windows, it was possible to retreive his hash. Mimikatz software was used to retreive the password md5 hash.
+Since he uses a very insecure operating system, Windows, it was possible to retrieve his hash. Mimikatz software was used to retrieve the password md5 hash.
 
 Cellebrite UFED could do a similar task, but our organization doesn't have the resources to afford it.
 
-Here is are the hashes of the password retreived with Mimikatz:
+Here are the hashes of the password retreived with Mimikatz:
 
 MD5 hash: ```025d43b1978d96e4d40d2316c90e3caa```
 
@@ -26,7 +26,7 @@ I then used hashcat on the MD5 hash with the password wordlist rockyou.txt.gz to
 
 ```hashcat -a 0 -m 0 -o cracked.txt hash.txt rockyou.txt.gz```
 
-Mode 0 is for md5, Mode 100 is for SHA1, and Mode 1400 is for SHA256. In this case "-m 0" was used to dictate that this is a md5 hash. This first part, "-a 0", specified that this is a dictionary attack. And the last part "-o" specified the output file "cracked.txt", the hash input file "hash.txt", and lastly the wordlist which in this case is "rockyou.txt.gz". Most might think that you have to use "gunzip" on rockyou.txt.gz, but hashcat can actually run it while it is in the gz format, it just takes a bit longer.
+Mode 0 is for md5, Mode 100 is for SHA1, and Mode 1400 is for SHA256. In this case "-m 0" was used to dictate that this is an md5 hash. This first part, "-a 0", specified that this is a dictionary attack. And the last part "-o" specified the output file "cracked.txt", the hash input file "hash.txt", and lastly the wordlist which in this case is "rockyou.txt.gz". Most might think that you have to use "gunzip" on rockyou.txt.gz, but hashcat can run it while it is in the gz format, it just takes a bit longer.
 
 This is the password that was used: ```a1b2c3d4e5f6```
 
@@ -44,4 +44,4 @@ Multiple copies (3) were made and they all have the same hashes as the orginal l
 
 # RAM
 
-When looking at volatile memory memory like RAM our team uses a tool called Volatility. We analysed the RAM for any clues as to what was left on this laptop. This gave us more clues as to what was happening. More specifically it showed us documents, browsing history, apps, and more that helped in the search of the disk and in gathering the evidence as a whole.
+When looking at volatile memory like RAM our team uses a tool called Volatility. We analyzed the RAM for any clues as to what was left on this laptop. This gave us more clues as to what was happening. More specifically it showed us documents, browsing history, apps, and more that helped in the search for the disk and in gathering the evidence as a whole.
