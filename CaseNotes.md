@@ -2,7 +2,7 @@
 
 Since this is a large disk image so there will be a lot of documentation so as not to miss anything. 
 
-There are things that come up later on that I matched with earlier documentation.
+Some things come up later on that I matched with earlier documentation.
 
 # Getting the disk into Autopsy
 
@@ -10,11 +10,11 @@ Start with getting the file:
 
 ```wget https://artifacts.picoctf.net/c/485/disk.flag.img.gz```
 
-Then unzipping it (since it's a large file it might take some time):
+Then unzip it (since it's a large file it might take some time):
 
 ```gunzip disk.flag.img.gz```
 
-Then opening it in autopsy. Also a note that this process is asumming you are using the linux version of autopsy and not other versions (windows).
+Then open it in autopsy. Also, note that this process is assuming you are using the Linux version of Autopsy and not other versions (windows).
 
 ```sudo autopsy```
 
@@ -32,7 +32,7 @@ Then click "add host" with the default investigator name.
 
 ![image](https://user-images.githubusercontent.com/91398631/232165281-256283ef-d832-4e9c-a0a3-54a4adcf3864.png)
 
-No need to change any of the defualts, just click "add host" again. 
+No need to change any of the defaults, just click "add host" again. 
 
 ![image](https://user-images.githubusercontent.com/91398631/232165302-5a62c429-ce62-4b16-9553-abdfd26ba5be.png)
 
@@ -48,7 +48,7 @@ To find the Location (full path) of the file run this command: ```realpath disk.
 
 ![image](https://user-images.githubusercontent.com/91398631/232165425-82ccd2fb-338d-4e29-adc3-02ac3ccd766a.png)
 
-It will give you the full path of that file. Alterantivly you can use pwd and then just append the file name to the end manually. Once you put the full path of the file in press "next".
+It will give you the full path of that file. Alternatively you can use pwd and then just append the file name to the end manually. Once you put the full path of the file in press "next".
 
 Now just click "add", again with just the defualts.
 
@@ -72,17 +72,17 @@ I then clicked "Expand Directories" for convenience when going through the disk 
 
 # Findings
 
-First thing I found is browsing history where it seems they are looking up some different types of encoding. This might be useful later.
+The first thing I found is browsing history where it seems they are looking up some different types of encoding. This might be useful later.
 
 ![image](https://user-images.githubusercontent.com/91398631/232166533-ee6cc922-6b72-43a2-b7ce-4c3e50f1a85f.png)
 
-In the gallery there are 4 different .bmp images.
+In the gallery, there are 4 different .bmp images.
 
 ![image](https://user-images.githubusercontent.com/91398631/232166639-7eec6391-6e61-4f77-8cb2-f7be7b0ed906.png)
 
 Now looking at the irclogs of which there are many but the first one I saw was in this path ```/3/home/yone/irclogs/01/04/#avidreader13.log```.
 
-This contains some information that related to the .bmp images that was just found earlier.
+This contains some information related to the .bmp images that were just found earlier.
 
 Key Points of the avidreader13.log:
 
@@ -93,7 +93,7 @@ Key Points of the avidreader13.log:
 
 This log gave the method of hiding the message in the images, steganography (with steghide), and gives the password to extract the data. Once the data is extracted Yone even gives the salt, key, and iv to decrypt with openssl. Even tells us what tools to use.
   
-Now I went back to the .bmp files and downdloaded all 4 different bmp images in the gallery:
+Now I went back to the .bmp files and downloaded all 4 different bmp images in the gallery:
   
 * /3/home/yone/gallery/1.bmp
 * /3/home/yone/gallery/2.bmp
@@ -104,7 +104,7 @@ I clicked each image, then clicked export. This downloaded the files to the /Dow
 
 ![image](https://user-images.githubusercontent.com/91398631/232168502-94b31610-5c52-4f92-a4bc-59ee218120d4.png)
   
-Now I would open up another terminal to analyse these images. I then navigated to the downloads folder and moved all of the files to my working directory for this challenge. You could just keep it in the downloads if you wanted to.
+Now I would open up another terminal to analyze these images. I then navigated to the downloads folder and moved all of the files to my working directory for this challenge. You could just keep it in the downloads if you wanted to.
   
 ```mv vol4-3.home.yone.gallery.[1237].bmp (../[filepath])```
 
@@ -123,7 +123,7 @@ The only one this command didn't work on was ```vol4-3.home.yone.gallery.7.bmp``
   
 ```salt=0f3fa17eeacd53a9 key=58593a7522257f2a95cce9a68886ff78546784ad7db4473dbd91aecd9eefd508 iv=7a12fd4dc1898efcd997a1b9496e7591```
   
-Also it is good to note that in the irclogs it also mentioned aes, cbc. which is useful when trying to create the openssl command to decrypt these files.
+Also, it is good to note that in the irclogs it also mentioned aes, cbc. which is useful when trying to create the openssl command to decrypt these files.
   
 These are the openssl commands I ran:
   
@@ -133,11 +133,11 @@ These are the openssl commands I ran:
   
 Tried to grep different things and then I also looked through these files and didn't find anything of use.
   
-Now back to looking through the disk image to see if anything else could be found. vol4-3.home.yone.gallery.7.bmp wasn't able to be extracted so hopefully something could be found to help with that.
+Now back to looking through the disk image to see if anything else could be found. vol4-3.home.yone.gallery.7.bmp wasn't able to be extracted so hopefully, something could be found to help with that.
   
 I continued looking through the irc logs and found nothing much other than they really like league of legends. There are many (5) league of legends logs.
   
-There was an email in Maildir which only said to delete all of your emails and scrub your trash.
+There was an email in Maildir that only said to delete all of your emails and scrub your trash.
   
 Next was the notes which there were 3 files (1.txt, 2.txt, and 3.txt):
   
@@ -145,23 +145,23 @@ Next was the notes which there were 3 files (1.txt, 2.txt, and 3.txt):
 * 2.txt: guldulheen
 * 3.txt: I keep forgetting this, but it starts like: yasuoaatrox...
   
-3.txt is the one that looks most interesting because of the "..." and text before it implying there is something more and this is potentially a password. Up until now the only password that is needed is one to extract vol4-3.home.yone.gallery.7.bmp with steghide. So far there isn't much to do other than keep looking.
+3.txt is the one that looks most interesting because of the "..." and text before it implies there is something more and this is potentially a password. Up until now the only password that is needed is one to extract vol4-3.home.yone.gallery.7.bmp with steghide. So far there isn't much to do other than keep looking.
   
-I then looked aroung a lot, and got stuck on many red herrings. To spare going through all of that here, just going to "Keyword Search" and then from earlier from the irclogs I know that Yone's username is yone786, so I just did a search for "yone786@" in hopes to get all of Yone's mail. This worked.
+I then looked around a lot, and got stuck on many red herrings. To spare going through all of that here, just went to "Keyword Search" and then from earlier from the irclogs I know that Yone's username is yone786, so I just searched "yone786@" in hopes to get all of Yone's mail. This worked.
   
 There was an interesting email chain (Not allocated, so deleted email) between yone786@gmail.com (Sten Walker) and azerite17@gmail.com (Bob Bobberson). Here is an image of that email chain: 
   
 ![image](https://user-images.githubusercontent.com/91398631/232172772-ef13fa0e-fbfd-4d1b-a0a8-16cf23e820f6.png)
 
-This email contains mutliple important messages:
+This email contains multiple important messages:
   
-* Mentioning adopting something for there most important passwords
-* Link to philosophy of passwords ```https://xkcd.com/936/```
-* Bob Bobberson's adapation is using unique words from his favorite game, World of Warcraft
+* Mentioning adopting something for their most important passwords
+* Link to a philosophy of passwords ```https://xkcd.com/936/```
+* Bob Bobberson's adaptation is using unique words from his favorite game, World of Warcraft
   
-The second I saw the adapatation of his favorite game, for Yone I knew that would be Leagure of Legends based on the irclogs. Additionally, the link basically says to create a password use 4 strong words.
+The second I saw the adaptation of his favorite game, for Yone I knew that would be League of Legends based on the irclogs. Additionally, the link basically says to create a password using 4 strong words.
   
-Looking back at the start of the password from the other text file "yasuoaatrox" you can see something interesting when comparing it agaisnt league of legends. I found that there is a League of Legend Champion named "Yasuo" and "Aatrox". This means that to finish this password there are probably another 2 Leagure of legends champions at the end of this password.
+Looking back at the start of the password from the other text file "yasuoaatrox" you can see something interesting when comparing it against League of Legends. I found that there is a League of Legends Champions named "Yasuo" and "Aatrox". This means that to finish this password there are probably another 2 League of Legends champions at the end of this password.
   
 Now just need to make a wordlist of all possible possibilities for this password.
 
@@ -190,9 +190,9 @@ It tried 1259 passwords before getting to "yasuoaatroxashecassiopeia" and succes
   
 Like the others this is data. I tried using the same openssl command with this one to no avail. 
 	
-This took a while for me to realise, but looking at the slack space of the txt files in yone/notes shows something promising. 
+This took a while for me to realise, but looking at the slack space of the txt files in Yone/notes shows something promising. 
 
-To check the slack space I only knew how to do this in the windows version of autopsy (I'm sure there's a way to do it in linux, but it's easier to do it in windows for me because I already know how). So I downdloaded the file again from picoctf then used 7zip to extract the disk image. Then I uploaded it to autopsy using a very similar process.
+To check the slack space I only knew how to do this in the Windows version of Autopsy (I'm sure there's a way to do it in Linux, but it's easier to do it in Windows for me because I already know how). So I downloaded the file again from picoCTF and then used 7zip to extract the disk image. Then I uploaded it to autopsy using a very similar process.
 	
 ![image](https://user-images.githubusercontent.com/91398631/232177032-b395912e-dccd-4028-a66f-e2aa750221c4.png)
 	
@@ -202,11 +202,11 @@ Be sure to click the settings button.
 
 And under the "Hide slack files in the:" section uncheck both boxes.
 	
-I first checked 3.txt-slack because that's where the start of the password was, but it ended up being in 1.txt-slack. This was obvious because it was the only one with data. Also it looked like something that might be encoded data.
+I first checked 3.txt-slack because that's where the start of the password was, but it ended up being in 1.txt-slack. This was obvious because it was the only one with data. Also, it looked like something that might be encoded data.
 	
 ![image](https://user-images.githubusercontent.com/91398631/232177152-4799156a-eec7-4e4c-8f5b-abd57c0081c0.png)
 
-When looking back at what was found earlier in the browsing history we seen multiple different searches about encoding:
+When looking back at what was found earlier in the browsing history we see multiple different searches about encoding:
 
 ```
 www.google.com
@@ -224,15 +224,15 @@ This is the final openssl command to decrypt vol4-3.home.yone.gallery.7.bmp.out
 	
 ```openssl enc -aes-256-cbc -d -S 2350e88cbeaf16c9 -K a9f86b874bd927057a05408d274ee3a88a83ad972217b81fdc2bb8e8ca8736da -iv 908458e48fc8db1c5a46f18f0feb119f -in vol4-3.home.yone.gallery.7.bmp.out -out finallyReleased.txt```
 	
-Then if I outputed the text file with the cat command.
+Then if I output the text file with the cat command.
 	
 ```cat finallyReleased.txt```
 	
-This showed the password needed to access the entire web server that incriminated Yone for online drug distrubtion. 
+This showed the password needed to access the entire web server that incriminated Yone for online drug distribution. 
 
 ---
 
 Note:
 	
-This was the first time I ever took on such a big disk file to analyse in this way. I would say in a lot of parts I went down the wrong track as there was just so much on the disk. There were many logs that were just completly useless as well as emails. Finding the right path to follow to the awnser was critical as going down the a rabbit hole that is wrong could take hours. This is based on a controlled ctf challenge I can only imagine real digital forensics cases being much more complex and requring many people working on the same project. I could defintly image this being a group activity if the challenge was harder. I think especially is guessy challenges like these different persepectives come in handy.
+This was the first time I ever took on such a big disk file to analyze in this way. I would say in a lot of parts I went down the wrong track as there was just so much on the disk. Many logs were just completely useless as well as emails. Finding the right path to follow to the answer was critical as going down a rabbit hole that is wrong could take hours. This is based on a controlled ctf challenge I can only imagine real digital forensics cases being much more complex and requiring many people working on the same project. I could definitely image this being a group activity if the challenge was harder. I think it is especially guessy challenges like these where different perspectives come in handy.
 	
