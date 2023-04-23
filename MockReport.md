@@ -42,7 +42,7 @@ Here are some statistics that the FBI had found in connection to this drug marke
 
 These connections were able to be made because there is a mark on the drugs that the DEA helped identify.
 
-Yone was first identified as a possible suspect by revealing his real name in one of the email headers. This is very similar to how the FBI caught The Silk Road. This led to finding more information about him with Open Source Intelligence (OSINT) as well as a deployed FBI surveillance team.
+Yone was first identified as a possible suspect by revealing his real name in one of the email headers. This is very similar how AlphaBay was taken down along with other cases which is expanded on in the [similar cases section](https://github.com/noamgariani11/Mock-Report/blob/main/SimilarCases.md). This led to finding more information about him with Open Source Intelligence (OSINT) as well as a deployed FBI surveillance team.
 
 Once the connection was made to Sten Walker (Yone) his laptop was seized. The objective then was to get the password off of the disk image to access the online drug marketplace. When the password was found in the disk image the new objective was to gather as much information on their network to provide evidence to this case.
 
