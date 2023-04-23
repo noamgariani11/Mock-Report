@@ -1,9 +1,29 @@
 Theses similar cases are related to the case at hand and also serve as a precedent for this case in prosecution.
 
-# Operation Bayonet
-
-Interesting
-
 # Silk Road
 
-The Silk Road as was a monumental as it was the first dark web marketplace and used Bitcoin to keep anonymity. Ross Ulbricht arrest set a precedent for all future cases.
+The Silk Road was monumental as it was the first online drug marketplace that used Bitcoin and TOR (the onion router) to keep anonymity. Ross Ulbricht's arrest set a precedent for all future cases.
+
+Once Silk Road was shut down they didn't get all the system administrators, programmers, and people running the site. Due to this after Silk Road was taken down, Silk Road 2 was brought up. This often happens whenever one online drug marketplace is taken down another is brought up and people move there. Eventually, Silk Road 2 was taken down as well with the organizers arrested. 
+
+After Silk Road 2 was shut down another online drug marketplace was brought up called Alpha Bay. Although there still were other online drug marketplaces such as Evolution and Agora. Evolution eventually shut down with the owners taking all of the Bitcoin that was currently on the website. This skyrocketed the traffic to Alpha Bay. And shortly after Agora also went down only pushing Alpha Bay to become a bigger and bigger drug marketplace. Within 2 years it became one of the biggest online drug marketplaces.
+
+With the federal organization determined to take down these online drug marketplaces because they account for so much of the drug trade, they tried to take down the Alpha Bay Marketplace.
+
+# Operation Bayonet
+
+The FBI tried various methods in hopes of getting to the source and shutting it down but the site was very secure and many security measures were taken to keep everyone anonymous. Multiple undercover agents used AlphaBay to buy heroin, Meth, Fake IDs, and more in hopes of getting some clues as to who is running this site. This was well documented and shared between many different organizations all working on the goal to take this worldwide online drug marketplace. 
+
+Eventually one of the undercover agents using AlphaBay got a welcome email to Alpha Bay. Since all of the evidence is closely examined the agent noticed in the email headers an unusual reply-to header ```pimpalex91@hotmail.com```. Since this is the Federal government they were able to contact Microsoft to get information on this email address and they found that the email was linked to a LinkedIn account of Alexandre Cazes born in 1991 hence the 91 in the email name.
+
+The FBI dug deeper into this person and more information that they collected and were able to locate the server location. Because of cooperation between agencies before the takedown, they notified many different agencies. The Dutch police told them to wait on the raid as they were currently pursuing another smaller drug marketplace called Hansa but were also very trusted. The idea they had was that once one drug marketplace is shut down everyone flocks to another drug marketplace that is trusted and that then becomes the next big thing. Operation Bayonet had the idea to destroy trust in the online drug marketplace by taking over Hansa's networks, shutting down AlphaBay, having everyone flock to Hansa, and then shutting down Hansa.
+
+With this, a joint task force was made. The Dutch and German police already had a lot of intelligence from logs of the system administrators running the site. After an investigation, it was found that the servers were in Lithuania, and with Lithuania's permission the Dutch/German police were able to raid the network and take it over. This was successful as they got them with their computers active and open so they transferred the whole Hansa network to the Netherlands.
+
+Once the Hansa network was transferred and got full access to it they changed the code of the site to surveil everything that was happening on the site. This made it possible to track the sellers and buyers through multiple means. One of which was the metadata in the photos from the sellers. To get this through they enacted a fake service shutdown of Hansa to where the sellers had to re-upload the images to the site, but now with the metadata not being stripped. This gave the location of many of the drug sellers. Many other smart methods were used by the authorities to get critical data on the buyers and sellers on the site. 
+
+Once all parts of the surveillance were set and persistent it was now ready for an influx of traffic from the Alpha Bay takedown. There were two parts to the Alpha Bay takedown one was the data center in Montreal, Canada and the other was Alexandre's residence in Thailand. They created a clever way to get his computer and phone open but intentionally created a crash at the front gate where he then left his house with his phone in his hand open and his computer open in his house. Once the police started the raid they were able to get the phone and the computer open. On the computer was a list of passwords for all of AlphaBays network which was pretty much the end for AlphaBay along with the successful raid in Canada of the data center. Alexandre committed suicide in Thailand due to the terror of having to spend his life in jail with his wife being 8 months pregnant. 
+
+Although with AlphaBay was officially down, everyone flocked to Hansa where the Dutch Police kept the site up for 27 days collecting data on every single transaction. After it was released that the FBI shut down AlphaBay and the Dutch Police shut down Hansa it shattered trust in the online drug marketplace. Many arrests of drug dealers on these sites were made and over 420k buyers had their information logged. This information is still being used to pursue certain cases. With this shattering the trust in the short term there was no mass migration to another online drug marketplace. Although this stopped people for a short time, slowly it came back up. 
+
+This is a cycle that continues and probably will for a long time. But with the use of digital forensics and tracking/monitoring online drug marketplace, there will always be some slip-up that will lead to the takedown of the site. This story is one of many and shows a precedent for other online drug marketplaces. 
