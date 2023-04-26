@@ -45,3 +45,23 @@ Multiple copies (3) were made and they all have the same hashes as the orginal l
 # RAM
 
 When looking at volatile memory like RAM our team uses a tool called Volatility. We analyzed the RAM for any clues as to what was left on this laptop. This gave us more clues as to what was happening. More specifically it showed us documents, browsing history, apps, and more that helped in the search for the disk and in gathering the evidence as a whole.
+
+# Log Analysis
+
+(Note: This is based on the log analysis and forensics modules of NCX. This isn't exactly what it was, but similar.)
+
+A packet capture (pcap) was captured over the Sten Walkers (Yone) operation. This was important because it possibly contained information that could expose certian parts of what was happenening. The tool that was used to view this network traffic capture was wireshark.
+
+The packet capture had many bit torrent files along with on packet that in plain text listed many different encryption types. Additionally later on in the pcap file it was found that in a converstion between to people the key phrase to the encryption was shown in plain text. The usual process to find this conerstation by looking at the packets, but for simplification I just ran strings on the pcap and got similar results. I then looked at the packets though to follow the process.
+
+Once the bittorrent file was reconstructed from the pcap was recounstructed it was ready to be decrypted with one of the encryption types and the key found. I first ruled out the encryption types that didn't require a key, then I started with the least secure encryption types on the list and systematiallly attempted each one. It ended up being DES-EBC encryption and was sucessfully decrypted with the key.
+
+The decrypted recovered file ended up being an image with malware installed inside of it. When running binwalk extract you could extract the malware. Then by getting the md5 hash or sha256 hash in the command line I was able to find in VirusTotal that the is a common type of malware used by this organization. I also looked at the exif data to see if anything about the image location or time could be found, but in this image the exif data was cleared. 
+
+In this case it added nothing that out team didn't already know.
+
+# Exif Data in Images
+
+In every email that is sent to the customers there is an image sent from the system adminstrators or owner (Sten Walker) and since we have undercover people in teh system we are able to get these emails. Since we systematically analyse all the data the team always looks at the exif data with exiftools. Most of the time all of the exif data is cleared other than the time stamp. The time stamp just shows that the image was taken an hour before the email was sent. This means that they take a new image and upload it every time they send an email and that it isn't an automated email. 
+
+It was the hope that they would slip up and the location would be in one of the images, but unfournatley there was never a slip-up and the information had to be found a different way. But this process was thoroughly documented anyways.
