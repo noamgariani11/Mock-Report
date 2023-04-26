@@ -17,6 +17,8 @@
   * [Password Cracking](https://github.com/noamgariani11/Mock-Report/blob/main/technicalNotes.md#cracking-password)
   * [Hashes](https://github.com/noamgariani11/Mock-Report/blob/main/technicalNotes.md#hashes)
   * [RAM](https://github.com/noamgariani11/Mock-Report/blob/main/technicalNotes.md#ram)
+  * [Log analysis](https://github.com/noamgariani11/Mock-Report/blob/main/technicalNotes.md#log-analysis)
+  * [Exif Data in Images](https://github.com/noamgariani11/Mock-Report/blob/main/technicalNotes.md#exif-data-in-images)
 * [Similar Cases](https://github.com/noamgariani11/Mock-Report/blob/main/SimilarCases.md)
 * [References](https://github.com/noamgariani11/Mock-Report/blob/main/references.md)
 * [Images](https://github.com/noamgariani11/Mock-Report/blob/main/images.md)
