@@ -230,6 +230,8 @@ Then if I output the text file with the cat command.
 	
 This showed the password needed to access the entire web server that incriminated Yone for online drug distribution. 
 
+The process used to analyse this disk image was systematic and top-down. When something relevant was found then I went to another part of the disk image. The entire image was gone over and documented.
+	
 ---
 
 Note:
