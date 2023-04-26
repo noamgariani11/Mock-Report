@@ -52,7 +52,7 @@ Before touching the laptop in question multiple images were taken. The images co
 
 There weren't any time constraints in the collection of the laptop so our team was able to be thorough in the investigation and not miss anything. To preserve the integrity we collected compared the digital fingerprint of the laptop to make sure there was no modification of the laptop. The [technical notes](https://github.com/noamgariani11/Mock-Report/blob/main/technicalNotes.md) go more in-depth into this but the standards mentioned above were used in this process.
 
-Initially, we look at the RAM since it was the most volatile, and then the disk. Our Digital Forensics team uses the same methodical approach that is documented for all of our cases as well as this one when reviewing the disk image and the drug marketplace network once the password was found. The [Case Notes](https://github.com/noamgariani11/Mock-Report/blob/main/CaseNotes.md) show the process used to find the password.
+Initially, we look at the RAM since it was the most volatile, and then the disk. Our Digital Forensics team uses the same methodical approach that is documented for all of our cases as well as this one when reviewing the disk image and the drug marketplace network once the password was found. The [case notes](https://github.com/noamgariani11/Mock-Report/blob/main/CaseNotes.md) show the process used to find the password.
 
 # Significance of Findings
 
@@ -77,6 +77,8 @@ Once shutting down the drug marketplace officially will shatter trust in the onl
 
 This investigation was mainly focused on getting the password from the laptop to access the drug marketplace network. It was also focused on collecting as much information from the online drug network to get enough evidence to proescute the key actors in creating "totallynotadrugonlinemarketplace". 
 
+The password for the oonline drug marketplace network was found in the disk image. From that network many actionable intellgince was found in the broad world of drugs, but more specific to this case there was a lot of incrimating evidence found on Sten Walker (Yone) that implicates that he was the one that started and ran this operation.
+
 # Acknowledgements
 
 I'd like to acknowledge the team that made this possible. Digital forensics is not an individual task it requires a team of dedicated people to go through many different avenues. With a diverse digital forensics team with many different people having different expertise, we were able to professionally and correctly analyze the files and connect them to the suspect.
@@ -97,6 +99,7 @@ Also, due to this case being in Texas this case was prepared to withstand the Da
 # Items Provided
 
 * [Chain of Custody Form](https://github.com/noamgariani11/Mock-Report/blob/main/chain-of-custody.pdf)
+* [Digital Investigation Log](https://github.com/noamgariani11/Mock-Report/blob/main/Digital_Investigation_Log.md)
 * [References](https://github.com/noamgariani11/Mock-Report/blob/main/references.md)
 * [The disk image](https://artifacts.picoctf.net/c/485/disk.flag.img.gz)
 * [Case Notes](https://github.com/noamgariani11/Mock-Report/blob/main/CaseNotes.md)
