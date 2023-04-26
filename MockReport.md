@@ -52,7 +52,7 @@ Before touching the laptop in question multiple images were taken. The images co
 
 There weren't any time constraints in the collection of the laptop so our team was able to be thorough in the investigation and not miss anything. To preserve the integrity we collected compared the digital fingerprint of the laptop to make sure there was no modification of the laptop. The [technical notes](https://github.com/noamgariani11/Mock-Report/blob/main/technicalNotes.md) go more in-depth into this but the standards mentioned above were used in this process.
 
-Initially, we look at the RAM since it was the most volatile, and then the disk. Our Digital Forensics team uses the same methodical approach that is documented for all of our cases as well as this one when reviewing the disk image and the drug marketplace network once the password was found.
+Initially, we look at the RAM since it was the most volatile, and then the disk. Our Digital Forensics team uses the same methodical approach that is documented for all of our cases as well as this one when reviewing the disk image and the drug marketplace network once the password was found. The [Case Notes](https://github.com/noamgariani11/Mock-Report/blob/main/CaseNotes.md) show the process used to find the password.
 
 # Significance of Findings
 
